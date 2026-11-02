@@ -1,0 +1,5 @@
+192.168.56.1 - - [01/Nov/2026:20:27:30 +0800] "GET /dvwa/vulnerabilities/upload/ HTTP/1.1" 200 4200 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+192.168.56.1 - - [01/Nov/2026:20:27:35 +0800] "POST /dvwa/vulnerabilities/upload/ HTTP/1.1" 200 4265 "http://192.168.56.101/dvwa/vulnerabilities/upload/" "Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+192.168.56.1 - - [01/Nov/2026:20:27:40 +0800] "GET /dvwa/hackable/uploads/shell.php HTTP/1.1" 200 271 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+192.168.56.1 - - [01/Nov/2026:20:27:45 +0800] "GET /dvwa/hackable/uploads/shell.php?cmd=whoami HTTP/1.1" 200 14 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+192.168.56.1 - - [01/Nov/2026:20:27:50 +0800] "GET /dvwa/hackable/uploads/shell.php?cmd=ipconfig HTTP/1.1" 200 782 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
